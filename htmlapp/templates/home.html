@@ -1,0 +1,54 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="{% static 'home.css'%}">
+
+<body bgcolor="grey">
+p{
+  border: 2px solid powderblue;
+  padding: 30px;
+}
+<h1 style="color:red;">Book</h1>
+<h2 style="color:lightblue;">Alchemist</h2>
+ <p style="color:red;">This is a red paragraph.</p>
+<p style="color:white;">The Alchemist (Portuguese: O Alquimista) is a novel by Brazilian
+    author Paulo Coelho that was first published in 1988. ... An allegorical novel,
+    The Alchemist follows a young Andalusian shepherd in his journey to the pyramids
+    of Egypt, after having a recurring dream of finding a treasure there.</p>
+<div><table>
+    <tr>
+        <td>paulo</td>
+                <td>coelo</td>
+
+    </tr>
+</table></div>
+
+
+<img src="{% static 'images/alchemist.jpg' %}">
+<table border="2">
+    <tr>
+
+<td><form action="" method="post" ></form></td>
+<td><input type="text" name="username" placeholder="name"></td>
+<td><input type="text" name="address" placeholder="address"></td>
+<td><input type="text" name="phn" placeholder="phnonenumber"></td>
+<td><input type="text" name="email" placeholder="email"></td>
+<td><input type="submit"></td>
+    </tr>
+    </table>
+<ul>
+<li><a href="pageone">link1</a></li>
+<li><a href="pagetwo">link2</a></li>
+<li><a href="pagethree">link3</a></li>
+<li><a href="pagefour">link4</a></li>
+
+</ul>
+
+<script src="{% static 'home.js' %}"></script>
+</body>
+</html>
